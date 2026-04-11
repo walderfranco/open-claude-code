@@ -7,15 +7,12 @@ build/
 *.tgz
 
 # Environment
-.env
-.env.local
 
 # OS files
 .DS_Store
 Thumbs.db
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -150,7 +147,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
 .venv
 env/
 venv/
@@ -192,3 +188,4 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 .aider*
+config.bat
