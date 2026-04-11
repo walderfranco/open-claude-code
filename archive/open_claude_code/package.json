@@ -20,8 +20,8 @@
     "url": "https://github.com/anthropics/claude-code/issues"
   },
   "scripts": {
-    "start": "node cli.mjs",
-    "dev": "node --watch cli.mjs"
+    "start": "node api.js && node cli.mjs",
+    "dev": "node api.js && node --watch cli.mjs"
   },
   "main": "src/index.mjs",
   "files": [

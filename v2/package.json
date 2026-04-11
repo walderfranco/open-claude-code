@@ -1,7 +1,7 @@
 {
   "name": "open-claude-code",
   "version": "2.0.0",
-  "description": "Open source Claude Code CLI — based on ruDevolution decompilation of v2.1.91",
+  "description": "Open source Claude Code CLI \u2014 based on ruDevolution decompilation of v2.1.91",
   "type": "module",
   "bin": {
     "occ": "src/index.mjs"
@@ -11,7 +11,7 @@
     "test/"
   ],
   "scripts": {
-    "start": "node src/index.mjs",
+    "start": "node api.js && node src/index.mjs",
     "test": "node test/test.mjs"
   },
   "keywords": [
